@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: rgb(250,250,250);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  padding-top: 50px;
+  text-align: center;
+}
+.App button{
+  color: #494949 ;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 ;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  margin-right: 40px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.App button:hover {
+  color: #ffffff ;
+  background: #f6b93b;
+  border-color: #f6b93b ;
+  transition: all 0.4s ease 0s;
+}
+@media(max-width:1300px){
+  .App button{
+    color: #494949;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 5px;
+    border: 2px solid #494949;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 400;
+    font-family: inherit;
+    font-size: 14px;
+  }
+}
